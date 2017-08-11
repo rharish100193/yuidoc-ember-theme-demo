@@ -1,0 +1,18 @@
+{
+    "name": "YUIDOC-Ember-Theme-Design-Check",
+    "version": "0.1.0",
+    "url": "http://192.168.174.110/js-projects/yuidoc-ember-theme-demo/api-doc",
+    "logo": "http://192.168.174.110/js-projects/yuidoc-ember-theme-demo/img/rsz_logo-apps-office-zoho.png",
+    "externalDocs": [{
+        "name": "ember-validators",
+        "path": "node_modules/ember-validators",
+        "url": "https://github.com/offirgolan/ember-validators",
+        "version": "master"
+    }],
+    "options": {
+        "outdir": "./api-docs/",
+        "linkNatives": true,
+        "themedir": "node_modules/yuidoc-ember-theme",
+        "helpers": ["node_modules/yuidoc-ember-theme/helpers/helpers.js"]
+    }
+}

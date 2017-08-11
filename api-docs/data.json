@@ -1,0 +1,139 @@
+{
+    "project": {
+        "name": "YUIDOC-Ember-Theme-Design-Check",
+        "version": "0.1.0",
+        "url": "http://192.168.174.110/js-projects/yuidoc-ember-theme-demo/api-doc",
+        "logo": "http://192.168.174.110/js-projects/yuidoc-ember-theme-demo/img/rsz_logo-apps-office-zoho.png",
+        "externalDocs": [
+            {
+                "name": "ember-validators",
+                "path": "node_modules/ember-validators",
+                "url": "https://github.com/offirgolan/ember-validators",
+                "version": "master"
+            }
+        ]
+    },
+    "files": {
+        "api-docs/assets/vendor/github-slugger/slugger.js": {
+            "name": "api-docs/assets/vendor/github-slugger/slugger.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "components/BaseComponent.js": {
+            "name": "components/BaseComponent.js",
+            "modules": {
+                "Components": 1
+            },
+            "classes": {
+                "BaseComponent": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        }
+    },
+    "modules": {
+        "Components": {
+            "name": "Components",
+            "submodules": {},
+            "elements": {},
+            "classes": {
+                "BaseComponent": 1
+            },
+            "fors": {},
+            "namespaces": {},
+            "tag": "module",
+            "file": "components/BaseComponent.js",
+            "line": 21
+        }
+    },
+    "classes": {
+        "BaseComponent": {
+            "name": "BaseComponent",
+            "shortname": "BaseComponent",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "Components",
+            "namespace": "",
+            "file": "components/BaseComponent.js",
+            "line": 21,
+            "access": "public",
+            "tagname": "",
+            "is_constructor": 1,
+            "params": [
+                {
+                    "name": "obj",
+                    "description": "@required",
+                    "type": "Object"
+                }
+            ],
+            "example": [
+                "\n<pre> obj = { 'id': '' }; </pre>"
+            ]
+        }
+    },
+    "elements": {},
+    "classitems": [
+        {
+            "file": "api-docs/assets/vendor/github-slugger/slugger.js",
+            "line": 12,
+            "description": "Generate a unique slug.",
+            "params": [
+                {
+                    "name": "value",
+                    "description": "String of text to slugify",
+                    "type": "String"
+                }
+            ],
+            "return": {
+                "description": "A unique slug string",
+                "type": "String"
+            },
+            "class": "BaseComponent"
+        },
+        {
+            "file": "api-docs/assets/vendor/github-slugger/slugger.js",
+            "line": 37,
+            "description": "Reset - Forget all previous slugs",
+            "return": {
+                "description": "void"
+            },
+            "class": "BaseComponent"
+        },
+        {
+            "file": "components/BaseComponent.js",
+            "line": 32,
+            "access": "public",
+            "tagname": "",
+            "params": [
+                {
+                    "name": "obj",
+                    "description": "@required",
+                    "type": "Object"
+                }
+            ],
+            "itemtype": "method",
+            "name": "addNewNode",
+            "return": {
+                "description": "",
+                "type": "HTMLElement"
+            },
+            "class": "BaseComponent",
+            "module": "Components"
+        }
+    ],
+    "warnings": [
+        {
+            "message": "Missing item type\nGenerate a unique slug.",
+            "line": " api-docs/assets/vendor/github-slugger/slugger.js:12"
+        },
+        {
+            "message": "Missing item type\nReset - Forget all previous slugs",
+            "line": " api-docs/assets/vendor/github-slugger/slugger.js:37"
+        }
+    ]
+}
